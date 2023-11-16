@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Sofia">
+    <meta name="description" content="Welcome to NDK, Sofia's cultural epicenter. Explore versatile event spaces, witness world-class performances, and embrace unforgettable moments in the heart of the city. Discover Sofia's artistic soul with us. Your journey into culture starts here." >
+    <meta name="keywords" content="Sofia, NDK, cultural epicenter, art, culture">
+    <title>Welcome to NDK, Sofia's cultural epicenter.</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!-- === Top navbar === -->
+     <header>
+        <img src="img/logo.PNG" class="logo" alt="Sofia Logo" title="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- === Top navbar end === -->
+    <!-- === main section === -->
+    <main>
+        <section class="main-section">
+            <h1 class="d-none">Main Section</h1>
+            <ul class="cover">
+                <li>
+                    <figure>
+                        <img src="img/cover-1.png" class="img-1" alt="Sofia Cover Image 1" title="Sofia Cover Image 1">
+                        <figcaption>Sofia Cover Image 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <article>
+                        <h5 class="cover-sh"><em>Sofia awaits you:</em></h5>
+                        <h2 class="cover-bh">Dive into a World of Tourism Delights!</h2>
+                    </article>
+                    <aside class="btndiv mobile-hide">
+                        <span class="linehe">01</span>
+                        <a href="page-2.html" class="explore-btn">Explore more</a>
+                    </aside>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/cover-2.png" class="w-cv" alt="Sofia Cover Image 2" title="Sofia Cover Image 2">
+                        <figcaption>Sofia Cover Image 2</figcaption>
+                    </figure>
+                </li>
+                <li class="desktop-hide">
+                    <aside class="btndiv">
+                        <span class="linehe">01</span>
+                        <a href="#!l" class="explore-btn">Explore more</a>
+                    </aside>
+                </li>
+            </ul>
+        </section>
+        <section class="text-center">
+            <h2 class="d-none">Sofia Logo</h2>
+            <figure>
+                <img src="img/sofia.png" class="sofia-img" alt="Sofia Logo" title="Sofia Logo">
+                <figcaption>Sofia Logo</figcaption>
+            </figure>
+            <h2 class="head"><strong> Sofia's Unmissable Attractions: Explore the Best of the City!</strong></h2>
+        </section>
+        <section>
+            <h2 class="d-none">About Sofia</h2>
+            <ul class="colmstyl">
+                <li>
+                    <aside>
+                        <h2 class="bl-he">NDK Sofia Where Culture Flourishes</h2>
+                        <p class="bl-text">Welcome to <strong>NDK, Sofia's cultural epicenter</strong>. Explore
+                            versatile event spaces,
+                            witness
+                            world-class performances, and embrace unforgettable moments in the heart of the city.
+                            Discover
+                            Sofia's
+                            artistic soul with us. Your journey into culture starts here.</p>
+                    </aside>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/sofia-haal.png" class="haal-w" alt="Sofia Hall Image" title="Sofia Hall Image">
+                        <figcaption>Sofia Hall Image</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="gall-sec row">
+            <h2 class="d-none">Gallery Section</h2>
+            <figure class="column">
+                <img src="img/g1.png" onclick="openModal();currentSlide(1)" class="gall hover-shadow cursor"
+                    alt="2018 spring festival" title="2018 spring festival">
+                <h4 class="gall-capt">2018 spring festival</h4>
+            </figure>
+            <figure class="column">
+                <img src="img/g2.png" onclick="openModal();currentSlide(2)" class="gall hover-shadow cursor"
+                    alt="2018 spring festival" title="2018 spring festival">
+                <h4 class="gall-capt">skate free day 2017</h4>
+            </figure>
+            <figure class="column">
+                <img src="img/g3.png" onclick="openModal();currentSlide(3)" class="gall hover-shadow cursor"
+                    alt="2018 spring festival" title="2018 spring festival">
+                <h4 class="gall-capt">classic music</h4>
+                <h4 class="gall-capt">festival 2019</h4>
+            </figure>
+            <figure class="column">
+                <img src="img/g4.png" onclick="openModal();currentSlide(4)" class="gall hover-shadow cursor"
+                    alt="2018 spring festival" title="2018 spring festival">
+                <h4 class="gall-capt">christmas</h4>
+                <h4 class="gall-capt">night 2015</h4>
+            </figure>
+        </section>
+        <section id="myModal" class="modal">
+            <h2 class="d-none">Galery Modal</h2>
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <aside class="modal-content">
+                <aside class="mySlides">
+                    <span class="numbertext">1 / 4</span>
+                    <figure>
+                        <img src="img/go1.png" alt="2018 spring festival" title="2018 spring festival" class="w-100">
+                        <figcaption>Gallery Slide 1</figcaption>
+                    </figure>
+                </aside>
+
+                <aside class="mySlides">
+                    <span class="numbertext">2 / 4</span>
+                    <figure>
+                        <img src="img/go2.png" alt="Skate free day 2017" title="Skate free day 2017" class="w-100">
+                        <figcaption>Gallery Slide 2</figcaption>
+                    </figure>
+                </aside>
+
+                <aside class="mySlides">
+                    <span class="numbertext">3 / 4</span>
+                    <figure>
+                        <img src="img/go3.png" alt="Classic music festival 2019" title="Classic music festival 2019"
+                            class="w-100">
+                        <figcaption>Gallery Slide 3</figcaption>
+                    </figure>
+                </aside>
+
+                <aside class="mySlides">
+                    <span class="numbertext">4 / 4</span>
+                    <figure>
+                        <img src="img/go4.png" alt="Christmas night 2015" title="Christmas night 2015" class="w-100">
+                        <figcaption>Gallery Slide 4</figcaption>
+                    </figure>
+                </aside>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <aside class="caption-container">
+                    <p id="caption"></p>
+                </aside>
+
+
+                <aside class="column">
+                    <img class="demo cursor w-100" src="img/g1.png" onclick="currentSlide(1)" alt="2018 spring festival"
+                        title="2018 spring festival">
+                </aside>
+                <aside class="column">
+                    <img class="demo cursor w-100" src="img/g2.png" onclick="currentSlide(2)" alt="Skate free day 2017"
+                        title="Skate free day 2017">
+                </aside>
+                <aside class="column">
+                    <img class="demo cursor w-100" src="img/g3.png" onclick="currentSlide(3)"
+                        alt="Classic music festival 2019" title="Classic music festival 2019">
+                </aside>
+                <aside class="column">
+                    <img class="demo cursor w-100" src="img/g4.png" onclick="currentSlide(4)" alt="Christmas night 2015"
+                        title="Christmas night 2015">
+                </aside>
+            </aside>
+        </section>
+
+        <section class="contact-sec">
+            <h2 class="d-none">Contact Us</h2>
+            <a href="contact.html" class="contact">CONTACT US HERE!</a>
+        </section>
+        <section class="quote pink-bg">
+            <h2 class="d-none">Quote Section</h2>
+            <blockquote>"Sofia's Beauty Unveiled: Where Every Street Holds History's Elegance and Every Square Resonates
+                with
+                Cultural Charm. Explore this Enchanting City Where the Past and Present Harmoniously Coexist."
+            </blockquote>
+        </section>
+    </main>
+    <!-- === main section end === -->
+    <!-- ==== Footer === -->
+    <footer class="footer">
+        <img src="img/ftr-1.png" class="ftrimg" alt="text logo" title="text logo">
+        <img src="img/ftr-2.png" class="ftrimg" alt="text logo" title="text logo">
+        <img src="img/line.png" class="ftrimg" alt="divider" title="divider">
+        <aside class="ftricv">
+            <a class="cnnum2"><img src="img/call.png" alt="call icon" title="call icon"> <span>+31685251362</span></a>
+            <a class="cnnum2"><img src="img/email-env.png" alt="mail icon" title="mail icon">
+                <span>JoinSofia@gmail.com</span></a>
+            <a class="cnnum2"><img src="img/location.png" alt="location icon" title="location icon"> <span>Bijdorplaan
+                    15, 2015 CE Haarlem</span></a>
+        </aside>
+        <p class="copyright">All Rights Reserved &#169; 2023</p>
+    </footer>
+    <!-- ==== Footer end === -->
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+</body>
+
+</html>

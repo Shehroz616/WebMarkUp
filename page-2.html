@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Sofia">
+    <meta name="description"
+        content="Welcome to NDK, Sofia's cultural epicenter. Explore versatile event spaces, witness world-class performances, and embrace unforgettable moments in the heart of the city. Discover Sofia's artistic soul with us. Your journey into culture starts here." >
+    <meta name="keywords" content="Sofia, NDK, cultural epicenter, art, culture">
+    <title>Welcome to NDK, Sofia's cultural epicenter.</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.PNG" class="logo" alt="Sofia Logo" title="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section">
+            <h1 class="d-none">Main Section</h1>
+            <ul class="cover">
+                <li class="">
+                    <aside class="cenpd">
+                        <h2 class="cover-bh3">Alexander Nevsky Cathedral: Where Spiritual Majesty Beckons</h2>
+                        <h5 class="bl-sh"><em>Sofia awaits you:</em></h5>
+                    </aside>
+                    <aside class="btndiv">
+                        <span class="linehe">02</span>
+                        <a href="page-3.html" class="exploreblue-btn">Explore more</a>
+                    </aside>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/alexander-cover.png" class="w-cv" alt="Alexander cover" title="Alexander cover">
+                        <figcaption>Alexander cover</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+        <section class="text-center">
+            <h2 class="d-none">Sofia Logo</h2>
+            <figure>
+                <img src="img/sofia.png" class="sofia-img" alt="Sofia Logo" title="Sofia Logo">
+                <figcaption>Sofia Logo</figcaption>
+            </figure>
+        </section>
+
+
+        <section class="pt-70">
+            <h2 class="d-none">About Event</h2>
+            <ul class="colmstyl">
+                <li class="text-left">
+                    <article>
+                        <h2 class="bl-bhe text-left">Alexander Nevsky Cathedral</h2>
+                        <p class="bl-text text-left">The Alexander Nevsky Cathedral is a majestic Neo-Byzantine and
+                            Neo-Russian
+                            masterpiece, known for its golden domes and intricate mosaics. Built to honor
+                            Russo-Bulgarian
+                            solidarity
+                            after the Russo-Turkish War, it's a symbol of gratitude. Inside, its opulent interior
+                            dazzles
+                            with marble,
+                            frescoes, and a remarkable iconostasis. Don't miss the adjacent bell tower, offering
+                            panoramic
+                            city views.
+                            This active place of worship is both an architectural marvel and a cultural symbol,
+                            showcasing
+                            Sofia's rich
+                            heritage.</p>
+                    </article>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/alexandar.png" class="alex-w" alt="Alexandar" title="Alexandar">
+                        <figcaption>Alexandar</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="gall-sec row">
+            <h2 class="d-none">Gallery Section</h2>
+            <figure class="column-2">
+                <img src="img/drone.png" onclick="openModal();currentSlide(1)" alt="2016 drone photo" title="2016 drone photo" class="gall-2 hover-shadow cursor">
+                <h4 class="gall-capt">2016 drone photo</h4>
+            </figure>
+            <figure class="column-2">
+                <img src="img/street.png" onclick="openModal();currentSlide(2)" alt="street photo 2019 school project" title="street photo 2019 school project" class="gall-2 hover-shadow cursor">
+                <h4 class="gall-capt">street photo 2019 school project</h4>
+            </figure>
+            
+        </section>
+        
+
+        <section id="myModal" class="modal">
+            <h2 class="d-none">Gallery Modal</h2>
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <aside class="modal-content">
+
+                <aside class="mySlides">
+                    <span class="numbertext">1 / 4</span>
+                    <figure>
+                        <img src="img/drone.png" alt="2018 spring festival" title="2018 spring festival"
+                                class="w-100">
+                        <figcaption>Gallery Slide 1</figcaption>
+                    </figure>
+                </aside>
+
+                <aside class="mySlides">
+                    <span class="numbertext">2 / 4</span>
+                    <figure>
+                        <img src="img/street.png" alt="Skate free day 2017" title="Skate free day 2017"
+                                class="w-100">
+                        <figcaption>Gallery Slide 2</figcaption>
+                    </figure>
+                </aside>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <aside class="caption-container">
+                    <p id="caption"></p>
+                </aside>
+
+
+                <aside class="column">
+                    <img class="demo cursor w-100" src="img/drone.png" onclick="currentSlide(1)" alt="2016 drone photo" title="2016 drone photo">
+                </aside>
+                <aside class="column">
+                    <img class="demo cursor w-100" src="img/street.png" onclick="currentSlide(2)" alt="street photo 2019 school project" title="street photo 2019 school project">
+                </aside>
+            </aside>
+        </section>
+
+        <section class="contact-sec">
+            <h2 class="d-none">CONTACT US</h2>
+            <a href="contact.html" class="contact">CONTACT US HERE!</a>
+        </section>
+        <section class="quote blue-bg">
+            <h2 class="d-none">Quote section</h2>
+            <blockquote>Alexander Nevsky Cathedral: A Revered Icon Where Architectural Elegance Meets Spiritual Majesty,
+                Inviting You to Experience a Timeless Blend of Beauty and Devotion."</blockquote>
+        </section>
+    </main>
+    <footer class="footer">
+        <img src="img/ftr-1.png" class="ftrimg" alt="text logo" title="text logo">
+        <img src="img/ftr-2.png" class="ftrimg" alt="text logo" title="text logo">
+        <img src="img/line.png" class="ftrimg" alt="divider" title="divider">
+        <aside class="ftricv">
+            <a class="cnnum2"><img src="img/call.png" alt="call icon" title="call icon"> <span>+31685251362</span></a>
+            <a class="cnnum2"><img src="img/email-env.png" alt="mail icon" title="mail icon">
+                <span>JoinSofia@gmail.com</span></a>
+            <a class="cnnum2"><img src="img/location.png" alt="location icon" title="location icon"> <span>Bijdorplaan
+                    15,
+                    2015 CE Haarlem</span></a>
+        </aside>
+        <p class="copyright">All Rights Reserved &#169; 2023</p>
+    </footer>
+
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+</body>
+
+</html>
